@@ -1,4 +1,4 @@
-# maxtill.ca
+# Max Tillotson
 
 #### [maxtill.ca](https://maxtill.ca)
 

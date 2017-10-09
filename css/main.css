@@ -17,3 +17,16 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  padding: 45px 0 0 0;
+}
+
+nav {
+  position: fixed;
+
+}
+
+ul > li::before {
+  content: none;
+}

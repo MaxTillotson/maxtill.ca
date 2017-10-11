@@ -18,6 +18,12 @@ html {
   box-sizing: inherit;
 }
 
+.big-logo {
+  display: block;
+  margin: auto;
+  width: 215px;
+}
+
 body {
   padding: 45px 0 0 0;
 }
@@ -29,4 +35,66 @@ nav {
 
 ul > li::before {
   content: none;
+}
+
+.jello, .jello a {
+  color: black;
+  filter: grayscale(100%);
+}
+
+.jello:hover, .jello a:hover{
+    filter: grayscale(0%);
+    color:#c73535;
+    text-decoration: none;
+}
+
+.miraj, .miraj a {
+    filter: grayscale(100%);
+    color: black;
+}
+
+.miraj:hover, .miraj a:hover {
+    filter: grayscale(0%);
+    color:#2751a5;
+    text-decoration: none;
+}
+
+.juice, .juice a {
+    filter: grayscale(100%);
+    color: black;
+}
+
+.juice:hover, .juice a:hover {
+    filter: grayscale(0%);
+    color:#852b7b;
+    text-decoration: none;
+}
+
+.red, .red a {
+    filter: grayscale(100%);
+    color: black;
+}
+
+.red:hover, .red a:hover {
+    filter: grayscale(0%);
+    color:#c73535;
+    text-decoration: none;
+}
+
+h4 {
+  color: white;
+}
+
+footer a:link {
+  color: #9d9d9d;
+}
+
+footer a:hover {
+  color:white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #222;
+  display: block;
 }

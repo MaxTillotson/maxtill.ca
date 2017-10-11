@@ -8,7 +8,7 @@ After learning about Graphic Design, I pursued it as a creative outlet to get to
 
 Using what I have learned throughout life, I will make my career in Illustration, Branding, Motion, or whatever the world throws at me.
 
-![](face.jpg)
+![](images/face.jpg)
 
 - **[info@maxtill.ca](mailto:info@maxtill.ca)**
 - [LinkedIn](https://www.linkedin.com/in/max-tillotson)

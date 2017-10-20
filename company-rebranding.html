@@ -8,25 +8,97 @@ layout: default
         <div class="unit xs-1 s-1 m-1 l-1">
           <div class="island">
             <div class="text block pad-t-1-2">
-              <h2 class="push-0 name">Concept</h2><span class="pad-b-1-2 block">Info.</span>
+              <h2 class="push-0 name">Project Brief</h2>
             </div>
             <p class="pad-t giga">The concept behind this project was to redesign the logo for a small company to bring it up to date with a modern look. After a logo was decided on, we were to use it in office supplies mock ups to see if the logo fit with the look the company was going for. From there, we were able to develop a branding guideline to help with advertising the logo and showing where it would appropriately fit.</p>
           </div>
         </div>
         <div class="unit xs-1 s-1 m-1 l-1">
-          <div class="island">
-            <div class="text block pad-t-1-2">
-              <h2 class="push-0 name">Sketches</h2><span class="pad-b-1-2 block">Info.</span>
+            <div class="island text block pad-t-1-2">
+              <h2 class="push-0 name">Sketches</h2>
             </div>
-            <div class="embed embed-1by1">
-              <img alt="" class="image embed-item" src="https://dummyimage.com/1:1x1080/000/fff.jpg">
+            <div class="island grid">
+            <div class="unit xs-1 s-1-2 m-1-2 l-1-2">
+            <p class="pad-t giga">Here are the sketches that lead to the final logo. With the logo completed, we were able to play with the orientation and create proper business stationary. Click on the sketches to view more.</p>
+            </div>
+            <div class="unit xs-1 s-1-2 m-1-2 l-1-2">
+            <div class="embed embed-2by3">
+              <div class="row">
+                <div class="sketch">
+                  <img class="image embed-item" src="{{site.baseurl}}/images/sketch1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+              </div>
+            </div>
+
+            <div id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+
+                <div class="mySlides">
+                  <div class="numbertext">1 / 6</div>
+                  <img class="sketch" src="{{site.baseurl}}/images/sketch1.jpg" style="width:40%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">2 / 6</div>
+                  <img class="sketch" src="{{site.baseurl}}/images/sketch2.jpg" style="width:40%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">3 / 6</div>
+                  <img class="sketch" src="{{site.baseurl}}/images/sketch3.jpg" style="width:40%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">4 / 6</div>
+                  <img class="sketch" src="{{site.baseurl}}/images/sketch4.jpg" style="width:40%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">5 / 6</div>
+                  <img class="sketch" src="{{site.baseurl}}/images/sketch5.jpg" style="width:40%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">6 / 6</div>
+                  <img class="sketch" src="{{site.baseurl}}/images/sketch6.jpg" style="width:40%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+
+
+                <div class="column">
+                  <img class="demo cursor" src="{{site.baseurl}}/images/sketch1.jpg" style="width:100%" onclick="currentSlide(1)" alt="First round of sketches Part 1/3">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="{{site.baseurl}}/images/sketch2.jpg" style="width:100%" onclick="currentSlide(2)" alt="First round of sketches Part 2/3">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="{{site.baseurl}}/images/sketch3.jpg" style="width:100%" onclick="currentSlide(3)" alt="First round of sketches Part 3/3">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="{{site.baseurl}}/images/sketch4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Second round of sketches Part 1/2">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="{{site.baseurl}}/images/sketch5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Second round of sketches Part 2/2">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="{{site.baseurl}}/images/sketch6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Final round of sketches Part 1/1">
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+
         <div class="unit xs-1 s-1 m-1 l-1">
           <div class="island">
             <div class="text block pad-t-1-2">
-              <h2 class="push-0 name">Final Product</h2><span class="pad-b-1-2 block">Info.</span>
+              <h2 class="push-0 name">Final Product</h2>
             </div>
             <div class="embed embed-1by1">
               <img alt="" class="image embed-item" src="https://dummyimage.com/1:1x1080/000/fff.jpg">
@@ -35,3 +107,43 @@ layout: default
         </div>
       </div>
     </div>
+
+
+    <script>
+    function openModal() {
+      document.getElementById('myModal').style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById('myModal').style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>

@@ -112,13 +112,7 @@ footer {
 
 .column {
   float: left;
-  width: 16.5%;
-}
-
-.sketch {
-  display: block;
-  margin: auto;
-  width: 33%;
+  width: 12.5%;
 }
 
 /* The Modal (background) */
@@ -232,10 +226,24 @@ img {
   opacity: 1;
 }
 
-img.hover-shadow {
-  transition: 0.3s
+.hover-shadow {
+  transition: 0.3s;
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sketch-display {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 45em) {
+  .sketch-display {
+    display: block;
+    margin: auto;
+    width: 33%;
+  }
 }

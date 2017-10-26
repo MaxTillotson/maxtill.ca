@@ -100,19 +100,25 @@ footer {
   display: block;
 }
 
-.row > .column {
-  padding: 0 8px;
-}
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.column {
+.miraj-sketch{
   float: left;
   width: 12.5%;
+}
+
+.miraj-brand{
+  float: left;
+  width: 5%;
+}
+
+.miraj-brand2{
+  float: left;
+  width: 10%;
 }
 
 /* The Modal (background) */
@@ -217,12 +223,12 @@ img {
   color: white;
 }
 
-.demo {
+.demo, .demo2 {
   opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.demo:hover, .demo2:hover {
   opacity: 1;
 }
 
@@ -234,7 +240,7 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.sketch-display {
+.sketch-display, .sketch-display2 {
   display: block;
   margin: auto;
   width: 100%;
@@ -245,5 +251,10 @@ img {
     display: block;
     margin: auto;
     width: 33%;
+  }
+  .sketch-display2 {
+    display: block;
+    margin: auto;
+    width: 66%;
   }
 }

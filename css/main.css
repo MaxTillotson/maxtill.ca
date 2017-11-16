@@ -131,7 +131,15 @@ footer {
   width: 20%;
 }
 
+.jello-final{
+  float: left;
+  width: 25%;
+}
 
+.jello-final2{
+  float: left;
+  width: 12.5%;
+}
 
 /* The Modal (background) */
 .modal {

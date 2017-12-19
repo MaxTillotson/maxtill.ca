@@ -1,0 +1,5 @@
+# THANKS
+
+Thomas Bradley for being patient with our questions on coding.
+
+https://www.w3schools.com for helping with inspiration and explanations

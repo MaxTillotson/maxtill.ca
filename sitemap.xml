@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.maxtill.ca/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2017-12-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.maxtill.ca/portfolio.html</loc>
+  </url>
+
+  <url>
+    <loc>https://www.maxtill.ca/package-redesign.html</loc>
+  </url>
+
+  <url>
+    <loc>https://www.maxtill.ca/company-rebranding.html</loc>
+  </url>
+
+  <url>
+    <loc>https://www.maxtill.ca/isometric-illustration.html</loc>
+  </url>
+
+  <url>
+    <loc>https://www.maxtill.ca/quartz.html</loc>
+  </url>
+
+  <url>
+    <loc>https://www.maxtill.ca/about-me.html</loc>
+  </url>
+
+  <url>
+    <loc>https://www.maxtill.ca/fun.html</loc>
+  </url>
+
+</urlset>
